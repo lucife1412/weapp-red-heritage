@@ -2,7 +2,7 @@
 <view class="route-detail">
   <!-- Banner -->
   <!-- data-src="{{item.img}}" data-all="{{addressList.map(i => i.img)}}" -->
-  <image class="banner" src="/images/way-map.png" bind:tap="previewImage" mode="aspectFill" />
+  <image class="banner" src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/way-map.png" bind:tap="previewImage" mode="aspectFill" />
 
   <!-- 线路卡片 -->
   <view class="route-card">

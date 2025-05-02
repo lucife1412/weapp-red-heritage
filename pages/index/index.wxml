@@ -23,15 +23,15 @@
     <!-- 功能图标区 -->
     <view class="function-grid">
       <view class="func-item" bindtap="navigateRedMap">
-        <image src="../../images/red-map.png" mode="aspectFill" />
+        <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-map.png" mode="aspectFill" />
         <text>红色地图</text>
       </view>
       <view class="func-item" bindtap="navigateArtifact">
-        <image src="../../images/artifact.png" mode="aspectFill" />
+        <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/artifact.png" mode="aspectFill" />
         <text>革命文物</text>
       </view>
       <view class="func-item" bindtap="navigateRedWay">
-        <image src="../../images/red-way.png" mode="aspectFill" />
+        <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-way.png" mode="aspectFill" />
         <text>红色游径</text>
       </view>
     </view>
@@ -48,7 +48,7 @@
           <view class="relic-item">
             <view class="img-content" bind:tap="toVideoDetails">
               <image class="relic-img" src="{{item.img}}" mode="aspectFill" />
-              <image src="/images/video.png" class="play-icon" />
+              <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/video.png" class="play-icon" />
             </view>
             <view class="relic-info">
               <text class="relic-title">{{item.title}}</text>

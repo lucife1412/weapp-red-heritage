@@ -17,7 +17,7 @@
         <text class="nav-text">“革命之城”精品路线</text>
         <view class="go-to">
           <text>前往</text>
-          <image src="/images/right-icon.png" class="right-icon" />
+          <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/right-icon.png" class="right-icon" />
         </view>
       </view>
     </view>
@@ -27,7 +27,7 @@
         <text class="nav-text">“广州起义”红色之旅</text>
         <view class="go-to">
           <text>前往</text>
-          <image src="/images/right-icon.png" class="right-icon" />
+          <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/right-icon.png" class="right-icon" />
         </view>
       </view>
     </view>

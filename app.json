@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map",
+    "pages/artifact/artifact",
+    "pages/route/route",
+    "pages/routeDetail/routeDetail",
+    "pages/artifactDetail/artifactDetail"
+  ],
+  "window": {
+    "navigationBarTitleText": "陕北红迹",
+    "navigationBarBackgroundColor": "#98342c",
+    "navigationBarTextStyle": "white"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于地图导航功能"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation",
+    "onLocationChange"
+  ],
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#d42323",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/tab-home.png",
+        "selectedIconPath": "/images/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "地图",
+        "iconPath": "/images/tab-map.png",
+        "selectedIconPath": "/images/tab-map-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

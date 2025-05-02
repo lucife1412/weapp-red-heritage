@@ -1,0 +1,20 @@
+<!-- pages/map/map.wxml -->
+<view class="map-container">
+	<!-- 搜索栏 -->
+	<view class="search-bar">
+		<input class="search-input" placeholder="输入地点搜索" bindinput="handleSearchInput" value="{{searchValue}}" />
+		<image src="../../images/search-icon.png" class="search-icon" bindtap="handleSearch" />
+	</view>
+
+	<!-- 等级筛选 -->
+	<!-- <view class="filter-bar">
+		<block wx:for="{{['全部', '全国重点文物保护单位']}}" wx:key="*this">
+			<view class="filter-item {{levelFilter === item ? 'active' : ''}}" bindtap="handleFilter" data-level="{{item}}">
+				{{item}}
+			</view>
+		</block>
+	</view> -->
+
+	<!-- 腾讯地图组件 -->
+	<map id="heritageMap" class="map-content" latitude="{{clusters.length > 0 ? clusters[0].latitude : 36.65}}" longitude="{{clusters.length > 0 ? clusters[0].longitude : 109.49}}" scale="{{scale}}" markers="{{clusters}}" bindregionchange="handleRegionChange" bindmarkertap="handleMarkerTap" show-location />
+</view>

@@ -1,0 +1,12 @@
+/* pages/artifactDetail/artifactDetail.wxss */
+.detail-video {
+  width: 100%;
+  height: 420rpx;
+}
+
+.bold-title {
+  font-size: 36rpx;
+  font-weight: 700;
+  padding: 20rpx;
+  border-bottom: 2rpx solid #eee;
+}

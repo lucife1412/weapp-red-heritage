@@ -1,0 +1,21 @@
+<!-- pages/artifact/artifact.wxml -->
+<view class="artifact">
+	<!-- Banner -->
+	<image class="banner" src="/images/02.png" mode="aspectFill" />
+	<view class="bg-banner"></view>
+	<view class="bg-text">广州市革命文物名录</view>
+	<view class="bg-text1">展示系统</view>
+
+	<!-- 瀑布流列表 -->
+	<view class="waterfall">
+		<block wx:for="{{filteredList}}" wx:key="id">
+			<view class="item">
+				<image class="item-img" src="{{item.img}}" mode="aspectFill" />
+				<text class="item-title">{{item.title}}</text>
+				<!-- <view class="detail-btn" bindtap="navigateDetail" data-id="{{item.id}}">
+					<text>了解详情></text>
+				</view> -->
+			</view>
+		</block>
+	</view>
+</view>

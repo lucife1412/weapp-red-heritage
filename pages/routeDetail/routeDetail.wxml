@@ -1,0 +1,42 @@
+<!--pages/routeDetail/routeDetail.wxml-->
+<view class="route-detail">
+  <!-- Banner -->
+  <!-- data-src="{{item.img}}" data-all="{{addressList.map(i => i.img)}}" -->
+  <image class="banner" src="/images/way-map.png" bind:tap="previewImage" mode="aspectFill" />
+
+  <!-- 线路卡片 -->
+  <view class="route-card">
+    <!-- 线路标题 -->
+    <view class="route-header">
+      <text class="title">"红色广州·革命之城"精品线路</text>
+    </view>
+
+    <!-- 线路介绍 -->
+    <view class="route-intro">
+      <text>黄花岗七十二烈士墓，广州公社旧址，广州农民运动讲习所旧址，广州起义烈士陵园，中国共产党第三次全国代表大会会址，黄埔军校旧址</text>
+    </view>
+
+    <!-- 地址列表 -->
+    <view class="address-list">
+      <block wx:for="{{addressList}}" wx:key="id">
+        <!-- 地址卡片 -->
+        <view class="address-item" data-item="{{item}}" bindtap="handleNavigation">
+          <!-- 左侧图片 -->
+          <image class="item-image" src="{{item.img}}" mode="aspectFill" />
+          <!-- 右侧内容 -->
+          <view class="item-content">
+            <!-- 标题 -->
+            <text class="item-title">{{item.name}}</text>
+            <!-- 地址 -->
+            <text class="item-address">{{item.address}}</text>
+          </view>
+
+          <!-- 导航按钮（右上角定位） -->
+          <view class="nav-btn" data-lat="{{item.latitude}}" data-lng="{{item.longitude}}">
+            <text>导航前往></text>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

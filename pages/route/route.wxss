@@ -1,0 +1,73 @@
+/* pages/route/route.wxss */
+.route {
+  position: relative;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  height: 440rpx;
+}
+
+.banner image {
+  width: 100%;
+  height: 100%;
+}
+
+/* 推荐卡片 */
+.card {
+  position: absolute;
+  top: 400rpx;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-radius: 60rpx 60rpx 0 0;
+  box-shadow: 0 8rpx 30rpx rgba(0, 0, 0, 0.1);
+  padding: 30rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  color: #000;
+  font-weight: bold;
+}
+
+/* 导航图标 */
+.nav-grid {
+  position: relative;
+  margin-top: 40rpx;
+}
+
+.nav-icon {
+  width: 100%;
+  margin-bottom: 10rpx;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.go-to {
+  display: flex;
+  align-items: flex-end;
+  background: rgb(251, 237, 218);
+  color: #A23F39;
+  font-size: 26rpx;
+  padding: 5rpx 10rpx 0 20rpx;
+  border-radius: 5rpx;
+}
+
+.right-icon {
+  width: 24rpx;
+  height: 24rpx;
+  padding-bottom: 6rpx;
+  margin-left: 5rpx;
+}
+
+.nav-text {
+  font-size: 28rpx;
+  color: #AB382E;
+  font-weight: 600;
+}

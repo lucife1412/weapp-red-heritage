@@ -1,0 +1,35 @@
+<!--pages/route/route.wxml-->
+<view class="route">
+  <!-- Banner -->
+  <image class="banner" src="/images/04.png" mode="aspectFill" />
+
+  <!-- 推荐卡片 -->
+  <view class="card">
+    <!-- 标题 -->
+    <view class="card-header">
+      <text class="title">红色线路推荐</text>
+    </view>
+
+    <!-- 导航图标 -->
+    <view class="nav-grid" bind:tap="navigateDetail">
+      <image src="/images/01.png" class="nav-icon" mode="aspectFill" />
+      <view class="flex-box">
+        <text class="nav-text">“革命之城”精品路线</text>
+        <view class="go-to">
+          <text>前往</text>
+          <image src="/images/right-icon.png" class="right-icon" />
+        </view>
+      </view>
+    </view>
+    <view class="nav-grid" bind:tap="navigateDetail">
+      <image src="/images/02.png" class="nav-icon" mode="aspectFill" />
+      <view class="flex-box">
+        <text class="nav-text">“广州起义”红色之旅</text>
+        <view class="go-to">
+          <text>前往</text>
+          <image src="/images/right-icon.png" class="right-icon" />
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

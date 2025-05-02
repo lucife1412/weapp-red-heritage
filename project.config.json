@@ -1,0 +1,28 @@
+{
+  "description": "项目配置文件",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "condition": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.25.3",
+  "appid": "wx067ae7565a32710f",
+  "projectname": "陕北红迹",
+  "condition": {},
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {
+    "tabIndent": "auto",
+    "tabSize": 2
+  }
+}

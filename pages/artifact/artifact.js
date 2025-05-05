@@ -15,13 +15,22 @@ Page({
       },
       // 更多数据...
     ],
-    filteredList: []
+    filteredList: [],
+    title: "",
+    bannerImg: ""
   },
 
-  onLoad() {
+  onLoad(e) {
     this.setData({
+      title: e.name,
+      bannerImg: e.cover,
       filteredList: this.data.list
-    })
+    }, () => {
+      // 在 setData 回调中确保数据更新后设置标题
+      wx.setNavigationBarTitle({
+        title: this.data.title
+      });
+    });
   },
 
   // 跳转详情

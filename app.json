@@ -5,7 +5,9 @@
     "pages/artifact/artifact",
     "pages/route/route",
     "pages/routeDetail/routeDetail",
-    "pages/artifactDetail/artifactDetail"
+    "pages/artifactDetail/artifactDetail",
+    "pages/transfer/transfer",
+    "pages/aiQuestion/aiQuestion"
   ],
   "window": {
     "navigationBarTitleText": "陕北红迹",
@@ -36,6 +38,12 @@
         "text": "地图",
         "iconPath": "/images/tab-map.png",
         "selectedIconPath": "/images/tab-map-active.png"
+      },
+      {
+        "pagePath": "pages/aiQuestion/aiQuestion",
+        "text": "Ai问答",
+        "iconPath": "/images/tab-robot.png",
+        "selectedIconPath": "/images/tab-robot-active.png"
       }
     ]
   },

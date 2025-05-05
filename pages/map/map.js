@@ -67,7 +67,7 @@ Page({
     this.setData({
       scale: e.scale
     });
-    this.processMarkers();
+    // this.processMarkers();
   },
 
   // 筛选文物等级

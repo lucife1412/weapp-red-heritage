@@ -2,18 +2,18 @@
 <view class="route-detail">
   <!-- Banner -->
   <!-- data-src="{{item.img}}" data-all="{{addressList.map(i => i.img)}}" -->
-  <image class="banner" src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/way-map.png" bind:tap="previewImage" mode="aspectFill" />
+  <!-- <image class="banner" src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/way-map.png" bind:tap="previewImage" mode="aspectFill" /> -->
 
   <!-- 线路卡片 -->
   <view class="route-card">
     <!-- 线路标题 -->
     <view class="route-header">
-      <text class="title">"红色广州·革命之城"精品线路</text>
+      <text class="title">{{currentForm.title}}</text>
     </view>
 
     <!-- 线路介绍 -->
     <view class="route-intro">
-      <text>黄花岗七十二烈士墓，广州公社旧址，广州农民运动讲习所旧址，广州起义烈士陵园，中国共产党第三次全国代表大会会址，黄埔军校旧址</text>
+      <text>{{currentForm.content}}</text>
     </view>
 
     <!-- 地址列表 -->
@@ -26,7 +26,7 @@
           <!-- 右侧内容 -->
           <view class="item-content">
             <!-- 标题 -->
-            <text class="item-title">{{item.name}}</text>
+            <text class="item-title">{{item.title}}</text>
             <!-- 地址 -->
             <text class="item-address">{{item.address}}</text>
           </view>

@@ -1,25 +1,25 @@
 // pages/route/route.js
 Page({
   data: {
-    routes: [{
+    list: [{
         id: 1,
-        name: '“红色广州·革命之城”精品线路',
-        points: 6
+        title: '中共中央落脚陕北到进驻延安城的足迹',
+        image: '/images/01.png'
       },
       {
         id: 2,
-        name: '“广州起义”红色之旅',
-        points: 4
+        title: '毛主席在陕北的足迹（1935年10月18日-1937年1月13日）',
+        image: '/images/01.png'
       },
       {
         id: 3,
-        name: '中国革命统一战线史迹之旅',
-        points: 8
+        title: '毛主席在陕北的足迹（1937年1月13日-1947年3月18日）',
+        image: '/images/01.png'
       },
       {
         id: 4,
-        name: '广州抗战史迹之旅',
-        points: 4
+        title: '毛主席在陕北的足迹（1947年3月18日-1947年3月19日）',
+        image: '/images/01.png'
       }
     ]
   },

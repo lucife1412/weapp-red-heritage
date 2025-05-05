@@ -1,0 +1,16 @@
+<!--pages/transfer/transfer.wxml-->
+<view class="transfer">
+  <view class="card">
+    <!-- 导航图标 -->
+    <view class="nav-grid" data-item="{{item}}" bind:tap="navigateDetail" wx:for="{{type === 'text' ? list : cloudList}}" wx:key="key">
+      <image src="{{item.image}}" class="nav-icon" mode="aspectFill" />
+      <view class="flex-box">
+        <text class="nav-text">{{item.name}}</text>
+        <view class="go-to">
+          <text>前往</text>
+          <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/right-icon.png" class="right-icon" />
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

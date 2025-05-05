@@ -1,10 +1,9 @@
 <!-- pages/artifact/artifact.wxml -->
 <view class="artifact">
 	<!-- Banner -->
-	<image class="banner" src="/images/02.png" mode="aspectFill" />
+	<image class="banner" src="{{ bannerImg }}" mode="aspectFill" />
 	<view class="bg-banner"></view>
-	<view class="bg-text">广州市革命文物名录</view>
-	<view class="bg-text1">展示系统</view>
+	<view class="bg-text">{{ title }}</view>
 
 	<!-- 瀑布流列表 -->
 	<view class="waterfall">

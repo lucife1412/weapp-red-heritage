@@ -1,27 +1,6 @@
-/* pages/route/route.wxss */
-.route {
-  position: relative;
-}
-
-/* Banner */
-.banner {
-  width: 100%;
-  height: 440rpx;
-}
-
-.banner image {
-  width: 100%;
-  height: 100%;
-}
-
-/* 推荐卡片 */
+/* pages/transfer/transfer.wxss */
 .card {
-  /* position: absolute;
-  top: 400rpx;
-  left: 0;
-  right: 0; */
   background: #fff;
-  border-radius: 60rpx 60rpx 0 0;
   box-shadow: 0 8rpx 30rpx rgba(0, 0, 0, 0.1);
   padding: 30rpx;
 }
@@ -67,7 +46,6 @@
 }
 
 .nav-text {
-  width: 80%;
   font-size: 28rpx;
   color: #AB382E;
   font-weight: 600;

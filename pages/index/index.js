@@ -6,15 +6,18 @@ Page({
     list: culturalRelics
   },
 
-  navigateRedMap(e) {
-    wx.switchTab({
-      url: '/pages/map/map',
+  navigateTransfer(e) {
+    const {
+      type
+    } = e.currentTarget.dataset
+    wx.navigateTo({
+      url: `/pages/transfer/transfer?type=${type}`
     });
   },
 
-  navigateArtifact(e) {
-    wx.navigateTo({
-      url: '/pages/artifact/artifact',
+  navigateRedMap(e) {
+    wx.switchTab({
+      url: '/pages/map/map',
     });
   },
 

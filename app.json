@@ -7,7 +7,8 @@
     "pages/routeDetail/routeDetail",
     "pages/artifactDetail/artifactDetail",
     "pages/transfer/transfer",
-    "pages/aiQuestion/aiQuestion"
+    "pages/aiQuestion/aiQuestion",
+    "pages/webview/webview"
   ],
   "window": {
     "navigationBarTitleText": "陕北红迹",

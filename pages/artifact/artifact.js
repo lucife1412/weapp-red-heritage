@@ -5,13 +5,13 @@ Page({
         id: 1,
         title: '广州农民运动讲习所旧址',
         region: '越秀区',
-        img: '/images/02.png'
+        img: 'https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/wabao2.png'
       },
       {
         id: 2,
         title: '广州公社旧址',
         region: '越秀区',
-        img: '/images/03.png'
+        img: 'https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/wuqi2.png'
       },
       // 更多数据...
     ],

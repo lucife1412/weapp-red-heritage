@@ -3,16 +3,16 @@
   <!-- 轮播图 -->
   <swiper class="banner" indicator-dots autoplay interval="3000">
     <swiper-item>
-      <image src="../../images/01.png" mode="scaleToFill" />
+      <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png" mode="scaleToFill" />
     </swiper-item>
     <swiper-item>
-      <image src="../../images/02.png" mode="scaleToFill" />
+      <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/wabao1.png" mode="scaleToFill" />
     </swiper-item>
     <swiper-item>
-      <image src="../../images/03.png" mode="scaleToFill" />
+      <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/wuqi1.png" mode="scaleToFill" />
     </swiper-item>
     <swiper-item>
-      <image src="../../images/04.png" mode="scaleToFill" />
+      <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/xiangbizi2.png" mode="scaleToFill" />
     </swiper-item>
   </swiper>
 
@@ -38,7 +38,7 @@
         <text>党史资料</text>
       </view>
       <view class="func-item" data-type="video" bindtap="navigateTransfer">
-        <image src="/images/cloud.png" mode="aspectFill" />
+        <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/cloud.png" mode="aspectFill" />
         <text>云上思政</text>
       </view>
     </view>
@@ -49,8 +49,8 @@
         <text class="title">文物推荐</text>
       </view> -->
 
-      <!-- 文物列表 -->
-      <!-- <view class="relic-list">
+    <!-- 文物列表 -->
+    <!-- <view class="relic-list">
         <block wx:for="{{list}}" wx:key="id">
           <view class="relic-item">
             <view class="img-content" bind:tap="toVideoDetails">

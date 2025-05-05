@@ -9,23 +9,23 @@ Page({
     list: [{
         name: "人物传记",
         key: "person",
-        image: "/images/person.png"
+        image: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/wabao1.png"
       },
       {
         name: "地方资料",
         key: "local",
-        image: "/images/local.png"
+        image: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/xiangbizi1.png"
       }
     ],
     cloudList: [{
         name: "纪录片",
         key: "record",
-        image: "/images/record.png"
+        image: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/baoan1.png"
       },
       {
         name: "红色宣讲",
         key: "red",
-        image: "/images/red.png"
+        image: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/xiangbizi2.png"
       }
     ]
   },
@@ -52,12 +52,18 @@ Page({
   },
 
   navigateDetail(e) {
-    const {
-      item
-    } = e.currentTarget.dataset
-    wx.navigateTo({
-      url: `/pages/artifact/artifact?model=${item.key}&cover=${item.image}&name=${item.name}&`
-    })
+    if (this.data.type === "text") {
+      const {
+        item
+      } = e.currentTarget.dataset
+      wx.navigateTo({
+        url: `/pages/artifact/artifact?model=${item.key}&cover=${item.image}&name=${item.name}`
+      })
+    } else if (this.data.type === "video") {
+      wx.navigateTo({
+        url: `/pages/webview/webview?url=http://www.tcmap.com.cn/view/index1765_list.html`
+      })
+    }
   },
 
   /**

@@ -61,7 +61,7 @@ Page({
       })
     } else if (this.data.type === "video") {
       wx.navigateTo({
-        url: `/pages/webview/webview?url=http://www.tcmap.com.cn/view/index1765_list.html`
+        url: `/pages/webview/webview?url=https://search.cctv.com/search.php`
       })
     }
   },

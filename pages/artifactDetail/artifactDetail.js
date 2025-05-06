@@ -1,4 +1,6 @@
 // pages/artifactDetail/artifactDetail.js
+const utils = require('../../utils/util.js')
+
 Page({
 
   /**
@@ -7,14 +9,17 @@ Page({
   data: {
     videoUrl: "https://media.w3.org/2010/05/sintel/trailer.mp4",
     isPlaying: false,
-    lastTapTime: 0 // 记录上次点击时间
+    lastTapTime: 0, // 记录上次点击时间
+    detailData: {}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    this.setData({
+      detailData: JSON.parse(options.item)
+    })
   },
 
   /**
@@ -22,6 +27,12 @@ Page({
    */
   onReady() {
     this.videoContext = wx.createVideoContext('myVideo');
+  },
+
+  // 预览图片
+  previewImage(e) {
+    const current = e.currentTarget.dataset.src
+    utils.previewImages(current, [current])
   },
 
   handleVideoTap() {

@@ -4,9 +4,18 @@
   height: 420rpx;
 }
 
+.banner {
+  width: 100%;
+  height: 400rpx;
+}
+
 .bold-title {
   font-size: 36rpx;
   font-weight: 700;
   padding: 20rpx;
   border-bottom: 2rpx solid #eee;
+}
+
+.text {
+  padding: 0 20rpx;
 }

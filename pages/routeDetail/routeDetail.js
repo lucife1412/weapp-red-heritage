@@ -59,7 +59,7 @@ Page({
         address: "陕西省延安市张湾子村",
         latitude: 36.97409,
         longitude: 107.89390,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi2.png"
       },
       {
         id: 2,
@@ -67,7 +67,7 @@ Page({
         address: "陕西省延安市吴起镇",
         latitude: 36.93355,
         longitude: 108.18349,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/wuqi2.png"
       },
       {
         id: 3,
@@ -75,7 +75,7 @@ Page({
         address: "陕西省延安市甘泉县下寺湾",
         latitude: 36.44068,
         longitude: 109.09668,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/taixiangsi2.png"
       },
       {
         id: 4,
@@ -83,7 +83,7 @@ Page({
         address: "陕西省延安市子长市瓦窑堡",
         latitude: 37.14193,
         longitude: 109.67707,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/wabao2.png"
       },
       {
         id: 5,
@@ -91,7 +91,7 @@ Page({
         address: "陕西省延安市志丹县保安镇",
         latitude: 36.83046,
         longitude: 108.77522,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/baoan2.png"
       },
       {
         id: 6,
@@ -99,7 +99,7 @@ Page({
         address: "陕西省延安市宝塔区",
         latitude: 36.60388,
         longitude: 109.49038,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/yanan.png"
       }
     ],
     addressList2: [{
@@ -116,7 +116,7 @@ Page({
         address: "陕西省延安市吴起县吴起镇",
         latitude: 36.93355,
         longitude: 108.18349,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/wuqi1.png"
       },
       {
         id: 3,
@@ -124,7 +124,7 @@ Page({
         address: "陕西省延安市甘泉县下寺湾镇",
         latitude: 36.44068,
         longitude: 109.09668,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/taixiangsi1.png"
       },
       {
         id: 4,
@@ -132,7 +132,7 @@ Page({
         address: "陕西省延安市甘泉县象鼻子湾村",
         latitude: 36.16876,
         longitude: 109.35603,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/xiangbizi1.png"
       },
       {
         id: 5,
@@ -140,7 +140,7 @@ Page({
         address: "陕西省延安市富县张村驿镇",
         latitude: 35.89830,
         longitude: 109.13975,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/fuxian.png"
       },
       {
         id: 6,
@@ -148,7 +148,7 @@ Page({
         address: "陕西省延安市富县张村驿镇川口子村",
         latitude: 35.89459,
         longitude: 109.12744,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/fuxian.png"
       },
       {
         id: 7,
@@ -156,7 +156,7 @@ Page({
         address: "陕西省延安市富县东村",
         latitude: 35.96083,
         longitude: 109.17266,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/fuxian.png"
       },
       {
         id: 8,
@@ -164,7 +164,7 @@ Page({
         address: "陕西省延安市子长市瓦窑堡街道",
         latitude: 37.14193,
         longitude: 109.67707,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/wabao3.png"
       },
       {
         id: 9,
@@ -172,7 +172,7 @@ Page({
         address: "陕西省榆林市清涧县袁家沟村",
         latitude: 37.16954,
         longitude: 110.47830,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/yuanjia.png"
       },
       {
         id: 10,
@@ -180,7 +180,7 @@ Page({
         address: "陕西省延安市延川县太相寺村",
         latitude: 36.91958,
         longitude: 110.04408,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/taixiang.png"
       },
       {
         id: 11,
@@ -188,7 +188,7 @@ Page({
         address: "陕西省延安市志丹县保安街道",
         latitude: 36.83046,
         longitude: 108.77522,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/baoan3.png"
       },
       {
         id: 12,
@@ -196,7 +196,7 @@ Page({
         address: "陕西省延安市宝塔区",
         latitude: 36.60388,
         longitude: 109.49038,
-        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png"
+        img: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/yanan.png"
       }
     ]
   },

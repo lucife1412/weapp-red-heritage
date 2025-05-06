@@ -2,17 +2,8 @@
 <view class="home-page">
   <!-- 轮播图 -->
   <swiper class="banner" indicator-dots autoplay interval="3000">
-    <swiper-item>
-      <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/zhangwanzi1.png" mode="scaleToFill" />
-    </swiper-item>
-    <swiper-item>
-      <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/wabao1.png" mode="scaleToFill" />
-    </swiper-item>
-    <swiper-item>
-      <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/wuqi1.png" mode="scaleToFill" />
-    </swiper-item>
-    <swiper-item>
-      <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/xiangbizi2.png" mode="scaleToFill" />
+    <swiper-item wx:for="{{imageList}}" wx:key="id" data-src="{{item}}" bind:tap="previewImage">
+      <image src="{{item}}" mode="scaleToFill" />
     </swiper-item>
   </swiper>
 
@@ -43,23 +34,23 @@
       </view>
     </view>
 
-    <!-- 文物推荐 -->
-    <!-- <view class="relics-section">
+    <!-- 景点推荐 -->
+    <view class="relics-section">
       <view class="section-header">
-        <text class="title">文物推荐</text>
-      </view> -->
+        <text class="title">景点推荐</text>
+      </view>
 
-    <!-- 文物列表 -->
-    <!-- <view class="relic-list">
-        <block wx:for="{{list}}" wx:key="id">
-          <view class="relic-item">
-            <view class="img-content" bind:tap="toVideoDetails">
+      <!-- 景点列表 -->
+      <view class="relic-list">
+        <block wx:for="{{spotList}}" wx:key="id">
+          <view class="relic-item" data-item="{{item}}" bind:tap="toVideoDetails">
+            <view class="img-content">
               <image class="relic-img" src="{{item.img}}" mode="aspectFill" />
-              <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/video.png" class="play-icon" />
+              <!-- <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/video.png" class="play-icon" /> -->
             </view>
             <view class="relic-info">
               <text class="relic-title">{{item.title}}</text>
-              <text class="relic-address">{{item.address}}</text>
+              <!-- <text class="relic-address">{{item.address}}</text> -->
             </view>
             <view class="detail-btn">
               <text>了解详情></text>
@@ -67,6 +58,6 @@
           </view>
         </block>
       </view>
-    </view> -->
+    </view>
   </view>
 </view>

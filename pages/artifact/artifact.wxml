@@ -1,20 +1,20 @@
 <!-- pages/artifact/artifact.wxml -->
 <view class="artifact">
-	<!-- Banner -->
-	<image class="banner" src="{{ bannerImg }}" mode="aspectFill" />
-	<view class="bg-banner"></view>
-	<view class="bg-text">{{ title }}</view>
+  <!-- Banner -->
+  <image class="banner" src="{{ bannerImg }}" mode="aspectFill" />
+  <view class="bg-banner"></view>
+  <view class="bg-text">{{ title }}</view>
 
-	<!-- 瀑布流列表 -->
-	<view class="waterfall">
-		<block wx:for="{{filteredList}}" wx:key="id">
-			<view class="item">
-				<image class="item-img" src="{{item.img}}" mode="aspectFill" />
-				<text class="item-title">{{item.title}}</text>
-				<!-- <view class="detail-btn" bindtap="navigateDetail" data-id="{{item.id}}">
+  <!-- 瀑布流列表 -->
+  <view class="waterfall">
+    <block wx:for="{{pageType === 'person' ? personList : localList}}" wx:key="id">
+      <view class="item">
+        <image class="item-img" src="{{item.img}}" mode="aspectFill" />
+        <text class="item-title">{{item.title}}</text>
+        <!-- <view class="detail-btn" bindtap="navigateDetail" data-id="{{item.id}}">
 					<text>了解详情></text>
 				</view> -->
-			</view>
-		</block>
-	</view>
+      </view>
+    </block>
+  </view>
 </view>

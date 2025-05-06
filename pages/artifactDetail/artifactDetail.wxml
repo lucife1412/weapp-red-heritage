@@ -1,11 +1,14 @@
 <!--pages/artifactDetail/artifactDetail.wxml-->
 <view class="artifact-detail">
   <!-- 顶部视频 -->
-  <video id="myVideo" src="{{videoUrl}}" controls show-play-btn show-center-play-btn="{{false}}" enable-play-gesture bindtap="handleVideoTap" class="detail-video">
-  </video>
+  <!-- <video id="myVideo" src="{{videoUrl}}" controls show-play-btn show-center-play-btn="{{false}}" enable-play-gesture bindtap="handleVideoTap" class="detail-video">
+  </video> -->
+  <!-- 配图 -->
+  <image class="banner" src="{{detailData.img}}" data-src="{{detailData.img}}" bind:tap="previewImage" mode="aspectFill" />
 
   <!-- 加粗标题 -->
-  <view class="bold-title">{{detailData.title || '广州农民运动讲习所旧址'}}</view>
+  <view class="bold-title">{{detailData.title}}</view>
 
   <!-- 其他详情内容... -->
+  <view class="text">{{detailData.content}}</view>
 </view>

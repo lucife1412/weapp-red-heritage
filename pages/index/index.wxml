@@ -11,7 +11,7 @@
   <view class="card">
     <!-- 横幅图片 -->
     <view class="card-banner">
-      <image src="/images/banner.png" mode="scaleToFill" />
+      <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/active.png" mode="scaleToFill" />
     </view>
 
     <!-- 功能图标区 -->

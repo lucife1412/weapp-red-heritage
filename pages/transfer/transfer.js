@@ -9,12 +9,12 @@ Page({
     list: [{
         name: "人物传记",
         key: "person",
-        image: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/wabao1.png"
+        image: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/maozedong.png"
       },
       {
         name: "地方资料",
         key: "local",
-        image: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/xiangbizi1.png"
+        image: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/yanan.png"
       }
     ],
     cloudList: [{

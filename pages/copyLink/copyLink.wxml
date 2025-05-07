@@ -1,0 +1,8 @@
+<!--pages/copyLink/copyLink.wxml-->
+<view class="copy-link">
+	<!-- 复制链接按钮 -->
+	<button bindtap="copyLink" type="primary">点击复制视频链接</button>
+
+	<!-- 提示文本（可选） -->
+	<view class="tip">复制成功后，请在浏览器中打开链接观看</view>
+</view>

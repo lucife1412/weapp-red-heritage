@@ -8,7 +8,8 @@
     "pages/artifactDetail/artifactDetail",
     "pages/transfer/transfer",
     "pages/aiQuestion/aiQuestion",
-    "pages/webview/webview"
+    "pages/webview/webview",
+    "pages/copyLink/copyLink"
   ],
   "window": {
     "navigationBarTitleText": "陕北红迹",

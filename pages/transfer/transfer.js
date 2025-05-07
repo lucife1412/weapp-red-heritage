@@ -52,16 +52,23 @@ Page({
   },
 
   navigateDetail(e) {
+    const {
+      item
+    } = e.currentTarget.dataset
     if (this.data.type === "text") {
-      const {
-        item
-      } = e.currentTarget.dataset
       wx.navigateTo({
         url: `/pages/artifact/artifact?model=${item.key}&cover=${item.image}&name=${item.name}`
       })
     } else if (this.data.type === "video") {
+      if (item.name === '红色宣讲') {
+        return wx.showToast({
+          title: '功能暂未开放，敬请期待！',
+          icon: 'none',
+          duration: 2000
+        })
+      }
       wx.navigateTo({
-        url: `/pages/webview/webview?url=https://search.cctv.com/search.php`
+        url: `/pages/copyLink/copyLink?url=http://www.yanan.gov.cn/sq/yxya/1.html`
       })
     }
   },

@@ -11,25 +11,25 @@
   <view class="card">
     <!-- 横幅图片 -->
     <view class="card-banner">
-      <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/active.png" mode="scaleToFill" />
+      <image src="https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/active.png" mode="scaleToFill" />
     </view>
 
     <!-- 功能图标区 -->
     <view class="function-grid">
       <view class="func-item" bindtap="navigateRedMap">
-        <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-map.png" mode="aspectFill" />
+        <image src="https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-map.png" mode="aspectFill" />
         <text>红色地图</text>
       </view>
       <view class="func-item" bindtap="navigateRedWay">
-        <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-way.png" mode="aspectFill" />
+        <image src="https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-way.png" mode="aspectFill" />
         <text>红色足迹</text>
       </view>
       <view class="func-item" data-type="text" bindtap="navigateTransfer">
-        <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/artifact.png" mode="aspectFill" />
+        <image src="https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/artifact.png" mode="aspectFill" />
         <text>党史资料</text>
       </view>
       <view class="func-item" data-type="video" bindtap="navigateTransfer">
-        <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/cloud.png" mode="aspectFill" />
+        <image src="https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/cloud.png" mode="aspectFill" />
         <text>云上思政</text>
       </view>
     </view>
@@ -46,7 +46,7 @@
           <view class="relic-item" data-item="{{item}}" bind:tap="toVideoDetails">
             <view class="img-content">
               <image class="relic-img" src="{{item.img}}" mode="aspectFill" />
-              <!-- <image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/video.png" class="play-icon" /> -->
+              <!-- <image src="https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/video.png" class="play-icon" /> -->
             </view>
             <view class="relic-info">
               <text class="relic-title">{{item.title}}</text>

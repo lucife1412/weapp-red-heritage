@@ -3,7 +3,7 @@
 	<!-- 搜索栏 -->
 	<view class="search-bar">
 		<input class="search-input" placeholder="输入地点搜索" bindinput="handleSearchInput" value="{{searchValue}}" />
-		<image src="https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/search-icon.png" class="search-icon" bindtap="handleSearch" />
+		<image src="https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/search-icon.png" class="search-icon" bindtap="handleSearch" />
 	</view>
 
 	<!-- 等级筛选 -->

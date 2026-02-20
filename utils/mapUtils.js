@@ -17,7 +17,7 @@ module.exports = {
 				clusters.push({
 					...marker,
 					id: index, // 使用原始数据的数字id或索引
-					iconPath: 'https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/marker-red.png',
+					iconPath: 'https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/marker-red.png',
 					markers: [marker]
 				});
 			}

@@ -9,23 +9,23 @@ Page({
     list: [{
         name: "人物传记",
         key: "person",
-        image: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/maozedong.png"
+        image: "https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/maozedong.png"
       },
       {
         name: "地方资料",
         key: "local",
-        image: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/yanan.png"
+        image: "https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/yanan.png"
       }
     ],
     cloudList: [{
         name: "纪录片",
         key: "record",
-        image: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/baoan1.png"
+        image: "https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/baoan3.png"
       },
       {
         name: "红色宣讲",
         key: "red",
-        image: "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/xiangbizi2.png"
+        image: "https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/red-info/xiangbizi3.png"
       }
     ]
   },

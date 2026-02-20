@@ -4,83 +4,83 @@ Page({
     localList: [{
         id: 1,
         title: '延安红色记忆',
-        img: 'https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/yanan.png'
+        img: 'https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/yanan.png'
       },
       {
         "id": 2,
         "title": "陕甘宁边区大生产运动",
-        "img": "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/dachansheng.png"
+        "img": "https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/dachansheng.png"
       },
       {
         id: 3,
         title: '中共中央文件选集（1936-1938）',
-        img: 'https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/zhongyang.png'
+        img: 'https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/zhongyang.png'
       },
       {
         id: 4,
         title: '共产党人的党性党风党纪建设',
-        img: 'https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/dangxing.png'
+        img: 'https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/dangxing.png'
       },
       {
         id: 5,
         title: '陕甘宁边区政府文件选编（第七辑）',
-        img: 'https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/shangan.png'
+        img: 'https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/shangan.png'
       },
       {
         "id": 6,
         "title": "延安市人民代表大会志",
-        "img": "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/yananshi.png"
+        "img": "https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/yananshi.png"
       },
       {
         "id": 7,
         "title": "延安时期文献档案汇编",
-        "img": "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/wenxian.png"
+        "img": "https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/wenxian.png"
       },
       {
         "id": 8,
         "title": "延安整风实录",
-        "img": "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/yanzheng.png"
+        "img": "https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/yanzheng.png"
       },
     ],
     personList: [{
         id: 1,
         title: '刘志丹与西北革命根据地研究',
-        img: 'https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/liuzhidan.png'
+        img: 'https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/liuzhidan.png'
       },
       {
         id: 2,
         title: '中央红军长征胜利到吴起',
-        img: 'https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/wuqi.png'
+        img: 'https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/wuqi3.png'
       },
       {
         id: 3,
         title: '毛泽东在延安',
-        img: 'https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/maozedong.png'
+        img: 'https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/maozedong.png'
       },
       {
         "id": 4,
         "title": "朱德选集",
-        "img": "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/zhude.png"
+        "img": "https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/zhude.png"
       },
       {
         "id": 5,
         "title": "革命烈士卷：谢子长",
-        "img": "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/lieshi.png"
+        "img": "https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/lieshi.png"
       },
       {
         "id": 6,
         "title": "谢子长传",
-        "img": "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/xiezichang.png"
+        "img": "https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/xiezichang.png"
       },
       {
         "id": 7,
         "title": "刘志丹",
-        "img": "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/liuzhantong_portrait.png"
+        "img": "https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/liuzhantong_portrait.png"
       },
       {
         "id": 8,
         "title": "刘志丹纪念文集",
-        "img": "https://red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/jinian.png"
+        "img": "https://weapp-red-heritage.oss-cn-wuhan-lr.aliyuncs.com/images/books/jinian.png"
       }
     ],
     title: "",
